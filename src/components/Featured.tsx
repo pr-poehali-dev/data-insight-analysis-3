@@ -49,8 +49,27 @@ export default function Featured() {
           <h2 className="text-4xl lg:text-6xl font-bold text-white mb-16 leading-tight">
             ДОСТИЖЕНИЯ
           </h2>
-          <div className="border border-neutral-800 p-10 text-center">
-            <p className="text-neutral-400 text-xl">Нету сыгранных турниров</p>
+          <div className="flex flex-col gap-4">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between border border-neutral-800 p-6 hover:border-red-700 transition-all duration-300">
+              <div className="flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-8">
+                <span className="text-red-500 font-mono text-sm font-bold">1-е МЕСТО</span>
+                <div>
+                  <h4 className="text-white font-bold text-lg">Day Media Cup 2025</h4>
+                  <p className="text-neutral-500 text-sm">Online · 5v5</p>
+                </div>
+              </div>
+              <span className="mt-3 sm:mt-0 text-sm border border-red-800 text-red-400 px-3 py-1 w-fit">🏆 Победа</span>
+            </div>
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between border border-neutral-800 p-6 hover:border-neutral-600 transition-all duration-300">
+              <div className="flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-8">
+                <span className="text-neutral-400 font-mono text-sm font-bold">2-е МЕСТО</span>
+                <div>
+                  <h4 className="text-white font-bold text-lg">Digital Winter Cup 2025</h4>
+                  <p className="text-neutral-500 text-sm">Online · 5v5</p>
+                </div>
+              </div>
+              <span className="mt-3 sm:mt-0 text-sm border border-neutral-600 text-neutral-400 px-3 py-1 w-fit">🥈 Финалист</span>
+            </div>
           </div>
         </div>
       </div>

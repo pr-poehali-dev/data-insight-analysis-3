@@ -2,7 +2,7 @@ import { useScroll, useTransform, motion } from "framer-motion";
 import { useRef } from "react";
 
 const upcoming = [
-  { date: "4 МАР 2026", name: "Starladder Online", format: "Online · 5v5", status: "Подтверждено" },
+  { date: "7 МАР 2026", name: "Starladder Online", format: "Online · 5v5", status: "Подтверждено" },
 ];
 
 export default function Promo() {
@@ -65,7 +65,7 @@ export default function Promo() {
           <h3 className="uppercase text-purple-400 text-sm tracking-widest mb-4">Последние матчи</h3>
           <h2 className="text-4xl lg:text-6xl font-bold text-white mb-12">РЕЗУЛЬТАТЫ</h2>
           <div className="border border-white/20 p-10 text-center backdrop-blur-sm">
-            <p className="text-neutral-300 text-xl">Нету</p>
+            <p className="text-neutral-300 text-xl">Скоро появится</p>
           </div>
         </div>
       </div>
