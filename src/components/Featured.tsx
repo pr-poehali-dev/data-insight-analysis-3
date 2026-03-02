@@ -1,9 +1,9 @@
 const players = [
-  { nick: "zachem", name: "Максим О.", role: "Капитан / IGL", country: "🇷🇺" },
-  { nick: "badyyyi", name: "Бадя Б.", role: "AWP / Снайпер", country: "🇷🇺" },
-  { nick: "kkazerx", name: "Егор Ж.", role: "Entry Fragger", country: "🇧🇾" },
-  { nick: "hikowexz", name: "Павел Б.", role: "Support", country: "🇱🇻" },
-  { nick: "z1rox", name: "Марк Д.", role: "Lurker", country: "🇷🇺" },
+  { nick: "zachem", name: "Максим О.", role: "Капитан / IGL", country: "🇷🇺", tg: null },
+  { nick: "badyyyi", name: "Бадя Б.", role: "AWP / Снайпер", country: "🇷🇺", tg: null },
+  { nick: "kkazerx", name: "Егор Ж.", role: "Entry Fragger", country: "🇧🇾", tg: null },
+  { nick: "hikowexz", name: "Павел Б.", role: "Support", country: "🇱🇻", tg: "https://t.me/hikolivewarllokk" },
+  { nick: "z1rox", name: "Марк Д.", role: "Lurker", country: "🇷🇺", tg: null },
 ];
 
 export default function Featured() {
@@ -27,6 +27,16 @@ export default function Featured() {
               <p className="text-xs uppercase tracking-widest text-purple-500 mb-1">{player.role}</p>
               <h4 className="text-2xl font-bold text-neutral-900 mb-1">{player.nick}</h4>
               <p className="text-neutral-500 text-sm">{player.country} {player.name}</p>
+              {player.tg && (
+                <a
+                  href={player.tg}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-3 inline-flex items-center gap-1 text-xs text-purple-500 hover:text-purple-700 transition-colors duration-300"
+                >
+                  Telegram →
+                </a>
+              )}
             </div>
           ))}
         </div>
