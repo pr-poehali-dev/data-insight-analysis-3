@@ -14,23 +14,22 @@ export default function Hero() {
       ref={container}
       className="relative flex items-center justify-center h-screen overflow-hidden"
     >
-      <motion.div
-        style={{ y }}
-        className="absolute inset-0 w-full h-full"
-      >
+      <motion.div style={{ y }} className="absolute inset-0 w-full h-full">
         <img
-          src="/images/mountain-landscape.jpg"
-          alt="Mountain landscape"
+          src="https://cdn.poehali.dev/projects/2d34e7b8-bb59-4919-9f6f-385240a72928/files/dd783622-1c7c-4730-bbe1-24d3a33beaad.jpg"
+          alt="Mentality Team Arena"
           className="w-full h-full object-cover"
         />
+        <div className="absolute inset-0 bg-black/50" />
       </motion.div>
 
-      <div className="relative z-10 text-center text-white">
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          ОТКРОЙ
+      <div className="relative z-10 text-center text-white px-6">
+        <p className="uppercase tracking-[0.4em] text-purple-400 text-sm mb-4">Киберспортивная команда</p>
+        <h1 className="text-5xl md:text-7xl lg:text-9xl font-bold tracking-tight mb-6">
+          MENTALITY
         </h1>
-        <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
-          Исследуй границы дизайна с иммерсивным параллакс-эффектом
+        <p className="text-lg md:text-xl max-w-xl mx-auto opacity-80 leading-relaxed">
+          Игра на победу. Мышление чемпиона.
         </p>
       </div>
     </div>
