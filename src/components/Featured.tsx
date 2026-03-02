@@ -1,8 +1,8 @@
 const players = [
   { nick: "zachem", name: "Максим О.", role: "Капитан / IGL", country: "🇷🇺" },
   { nick: "badyyyi", name: "Бадя Б.", role: "AWP / Снайпер", country: "🇷🇺" },
-  { nick: "kkazerx", name: "Егор Ж.", role: "Entry Fragger", country: "🇷🇺" },
-  { nick: "hikowexz", name: "Павел Б.", role: "Support", country: "🇷🇺" },
+  { nick: "kkazerx", name: "Егор Ж.", role: "Entry Fragger", country: "🇧🇾" },
+  { nick: "hikowexz", name: "Павел Б.", role: "Support", country: "🇱🇻" },
   { nick: "z1rox", name: "Марк Д.", role: "Lurker", country: "🇷🇺" },
 ];
 
