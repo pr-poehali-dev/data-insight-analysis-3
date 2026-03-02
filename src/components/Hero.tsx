@@ -16,11 +16,11 @@ export default function Hero() {
     >
       <motion.div style={{ y }} className="absolute inset-0 w-full h-full">
         <img
-          src="https://cdn.poehali.dev/projects/2d34e7b8-bb59-4919-9f6f-385240a72928/files/dd783622-1c7c-4730-bbe1-24d3a33beaad.jpg"
-          alt="Mentality Team Arena"
-          className="w-full h-full object-cover"
+          src="https://cdn.poehali.dev/projects/2d34e7b8-bb59-4919-9f6f-385240a72928/files/f36e9704-5c48-444e-893b-3b6296f4b655.jpg"
+          alt="Mentality Team Background"
+          className="w-full h-full object-cover grayscale"
         />
-        <div className="absolute inset-0 bg-black/50" />
+        <div className="absolute inset-0 bg-black/60" />
       </motion.div>
 
       <div className="relative z-10 text-center text-white px-6">
